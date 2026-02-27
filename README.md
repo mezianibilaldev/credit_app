@@ -13,31 +13,31 @@ systèmes de credit scoring utilisés dans les institutions financières.
 
 ## 🎯 Objectifs du projet
 
--   Nettoyer et préparer des données réelles\
--   Réaliser une analyse exploratoire (EDA)\
--   Gérer les valeurs manquantes\
--   Encoder les variables catégorielles\
--   Entraîner plusieurs modèles de classification\
--   Comparer leurs performances\
--   Interpréter les résultats
+-   Nettoyer et préparer des données réelles.
+-   Réaliser une analyse exploratoire.
+-   Gérer les valeurs manquantes.
+-   Encoder les variables catégorielles.
+-   Entraîner plusieurs modèles de classification.
+-   Comparer leurs performances.
+-   Interpréter les résultats.
 
 ------------------------------------------------------------------------
 
 ## 🛠 Technologies utilisées
 
--   Python\
--   Pandas\
--   NumPy\
--   Matplotlib / Seaborn\
+-   Python
+-   Pandas
+-   NumPy
+-   Matplotlib | Seaborn
 -   Scikit-learn
 
 ------------------------------------------------------------------------
 
 ## 🤖 Modèles testés
 
--   Régression Logistique\
--   Arbre de Décision\
--   Random Forest
+-   Régression Logistique
+-   K-Nearest Neighbors
+-   Decision Tree
 
 ------------------------------------------------------------------------
 
@@ -45,12 +45,7 @@ systèmes de credit scoring utilisés dans les institutions financières.
 
 Les modèles sont évalués à l'aide des métriques suivantes :
 
--   Accuracy\
--   Precision\
--   Recall\
--   F1-score\
--   Matrice de confusion
-
+-   Accuracy
 ------------------------------------------------------------------------
 
 ## 🔄 Étapes du projet
@@ -66,20 +61,19 @@ Les modèles sont évalués à l'aide des métriques suivantes :
 
 ## 📈 Résultats
 
-Le modèle Random Forest a montré les meilleures performances pour
-identifier les profils à risque tout en maintenant une bonne capacité de
-généralisation.
+Logistic Regression a obtenu la meilleure performance avec une accuracy de **85.36%** sur les données de test.
+
+Les autres modèles ont été comparés afin d’analyser leur capacité de généralisation et leur robustesse.
+
 
 ------------------------------------------------------------------------
 
 ## 🚀 Améliorations possibles
 
--   Optimisation des hyperparamètres\
--   Validation croisée\
--   Déploiement via Flask ou FastAPI\
--   Explicabilité du modèle (feature importance, SHAP)
+- Optimisation des hyperparamètres  
+- Validation croisée  
+- Ajout d’autres métriques d’évaluation
 
 ------------------------------------------------------------------------
 
-Projet réalisé dans le cadre d'un entraînement en Machine Learning et
-préparation à un parcours en Data Science.
+Projet réalisé dans le cadre d'un entraînement en Machine Learning .
